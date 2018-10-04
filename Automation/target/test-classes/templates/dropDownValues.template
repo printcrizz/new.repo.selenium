@@ -1,0 +1,5 @@
+{
+  "Region" : "${Region}",
+  "Comuna" : "${Comuna}",
+  "Tienda" : "${Tienda}"
+}

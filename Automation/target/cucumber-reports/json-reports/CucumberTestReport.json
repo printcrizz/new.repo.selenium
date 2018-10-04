@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 146774,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "01 - Calculare mi propio sueldo",
+        "description": "",
+        "id": "calculadora-de-liquidacion-de-sueldo;01---calculare-mi-propio-sueldo",
+        "after": [
+          {
+            "result": {
+              "duration": 98987,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11587771733,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Abro el Navegador y me dirijo a \"http://www.calcular.cl/como-calcular-sueldo-liquido-chile.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.calcular.cl/como-calcular-sueldo-liquido-chile.html",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinitions.OpenBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 773923413,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Lleno el campo \"Sueldo Base\" con el siguiente valor \"1234567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sueldo Base",
+                  "offset": 16
+                },
+                {
+                  "val": "1234567",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinitions.fillValue(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 312512854,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Lleno el campo \"Fonasa/Isapre\" con el siguiente valor \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fonasa/Isapre",
+                  "offset": 16
+                },
+                {
+                  "val": "3",
+                  "offset": 55
+                }
+              ],
+              "location": "StepDefinitions.fillValue(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Calculadora de liquidacion de sueldo",
+    "description": "",
+    "id": "calculadora-de-liquidacion-de-sueldo",
+    "keyword": "Feature",
+    "uri": "Test.feature"
+  }
+]
